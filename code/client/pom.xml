@@ -9,18 +9,13 @@
 	<packaging>jar</packaging>
 
 	<name>mars-client</name>
-	<description>Demo project for Spring Cloud</description>
+	<description></description>
 
 	<parent>
 		<groupId>com.mars</groupId>
 		<artifactId>mars-master</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.8</java.version>
-	</properties>
 
 	<dependencies>
 		<dependency>

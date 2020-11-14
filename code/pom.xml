@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <name>mars-master</name>
-    <description>Demo project for Spring Cloud</description>
+    <description></description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -80,6 +80,12 @@
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
             <version>3.13.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
         </dependency>
 
     </dependencies>
