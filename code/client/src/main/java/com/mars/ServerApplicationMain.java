@@ -16,6 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServerApplicationMain {
 	public static void main(String[] args)throws Exception {
 		SpringApplication.run(ServerApplicationMain.class, args);
-		System.out.println("*******************client start success*******************");
+		System.out.println("*******************client start success *******************");
 	}
 }
