@@ -6,7 +6,6 @@
  **/
 package com.mars.core.util;
 
-import com.google.protobuf.AbstractMessage;
 import com.mars.core.db.impl.ProtoBuffUtil;
 import com.mars.core.msg.*;
 import lombok.extern.log4j.Log4j2;
@@ -14,7 +13,6 @@ import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;

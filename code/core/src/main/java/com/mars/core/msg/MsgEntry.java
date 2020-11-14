@@ -6,12 +6,8 @@
  **/
 package com.mars.core.msg;
 
-import com.mars.core.db.impl.ProtoBuffUtil;
-import lombok.Builder;
-
 import java.lang.reflect.Method;
 import java.util.AbstractMap;
-//		CGDemoMsg.CGDemoMsgProto msg = CGDemoMsg.CGDemoMsgProto.parseFrom((byte[]) null);
 public class MsgEntry extends AbstractMap.SimpleEntry<Method,MsgValue> {
     /**
      * Creates an entry representing a mapping from the specified

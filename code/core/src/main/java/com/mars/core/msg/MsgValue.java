@@ -6,7 +6,6 @@
  **/
 package com.mars.core.msg;
 
-import com.google.protobuf.AbstractMessage;
 import lombok.Builder;
 import lombok.Data;
 

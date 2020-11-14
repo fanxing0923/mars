@@ -1,7 +1,7 @@
 package com.mars.core.db.impl;
+
 import com.google.common.primitives.Ints;
 import com.google.protobuf.GeneratedMessage;
-import redis.clients.jedis.Builder;
 
 import java.lang.reflect.Method;
 import java.nio.ByteBuffer;
